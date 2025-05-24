@@ -1,5 +1,5 @@
 from datetime import datetime
-from dateutil.parser import parse
+from dateutil.parser import parse #Це рядок,дозволяє легко перетворювати різні текстові формати дат у об'єкти datetime
 
 # Завдання 1: Вивести поточну дату та час
 now = datetime.now()
